@@ -11,7 +11,7 @@ prompt = "Generate an anime-style image of a grand pirate ship with exaggerated 
 negative_prompt = 'low quality, bad quality, sketches, blurry, ugly, duplicate, poorly drawn, deformed, mosaic'
 
 # image = load_image("https://huggingface.co/datasets/hf-internal-testing/diffusers-images/resolve/main/sd_controlnet/hf-logo.png")
-image = load_image("input-lineart/ship.jpg")
+image = load_image("input-LineArt/ship.jpg")
 controlnet_conditioning_scale = 0.5
 
 controlnet = ControlNetModel.from_pretrained(
@@ -37,5 +37,5 @@ images = pipe(
     prompt, negative_prompt=negative_prompt, image=image, controlnet_conditioning_scale=controlnet_conditioning_scale,
     ).images
 
-images[0].save(f"output-lineart/ship_new.png")
+images[0].save(f"output-LineArt/ship_new.png")
 
