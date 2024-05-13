@@ -15,7 +15,7 @@ image = load_image("input-LineArt/ship.jpg")
 controlnet_conditioning_scale = 0.5
 
 controlnet = ControlNetModel.from_pretrained(
-    "diffusers/controlnet-canny-sdxl-1.0",
+    "TheMistoAI/MistoLine",
     torch_dtype=torch.float16
 )
 vae = AutoencoderKL.from_pretrained("madebyollin/sdxl-vae-fp16-fix", torch_dtype=torch.float16)
