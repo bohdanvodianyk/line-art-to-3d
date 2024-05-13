@@ -1,0 +1,9 @@
+1. prompt = "photo of elephant 8k high definition in jungle"
+2. prompt = "Generate an anime-style image of a grand pirate ship with exaggerated proportions and vibrant colors. Feature ornate sails and a tumultuous sea, conveying action and adventure."
+3. prompt = "Create a photo-realistic image of an old town in steampunk style. Include Victorian architecture with brass pipes, gears, and steam vents. Capture the scene at dusk to highlight metallic textures."
+4. prompt = "Generate a photorealistic image of a futuristic car with sleek, aerodynamic design and metallic finish. Set in a modern cityscape at night, emphasize advanced technology and holographic lights."
+5. prompt = "Create a high-quality, 3D cartoon-style image of a normal elephant with four legs standing on a plain white background. The elephant should look cheerful and vibrant, embodying typical cartoon characteristics such as exaggerated features and bright colors."
+
+
+You can use this negative prompt for all cases:
+negative_prompt = 'low quality, bad quality, sketches, blurry, ugly, duplicate, poorly drawn, deformed, mosaic'
